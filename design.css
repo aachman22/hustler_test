@@ -222,3 +222,69 @@ a:active {
 .block5 ul span {
   color: black;
 }
+
+@media only screen and (max-width: 768px) {
+  .block1{
+    height: 2%;
+    width: 100%;
+    background-color: 3379;
+    text-align: right;
+  }
+
+  #phno {
+    margin-top: -2.6%;
+  }
+
+  #line {
+    margin-top: -2.6%;
+  }
+
+  #amb {
+    margin-top: -2.6%;
+  }
+
+  .block2 {
+    height: 7%;
+  }
+
+
+  .block3{
+    height: 2%;
+    width: 100%;
+    background-color: 77A76;
+  }
+
+  #b3list1 li {
+    margin-top: -2.6%;
+  }
+
+  #first {
+    margin-left: 11.5%;
+  }
+
+  .block4 {
+    height: 30%;
+  }
+
+  .block5 {
+    height: 30%;
+    width: 100%;
+    position: relative;
+    text-align: right;
+  }
+
+  #b5text2 {
+    font-weight: 400;
+  }
+
+  #b5list1, #b5list2{
+    /* position: absolute;
+    list-style-type: square;
+    color: #0264BB;
+    font-size: 1.1vw;
+    text-align: left;
+    top: 47%; */
+    font-weight: 400;
+  }
+
+}
