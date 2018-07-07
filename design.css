@@ -28,35 +28,42 @@ a:active {
   height: 5%;
   width: 100%;
   background-color: 3379;
+  position: relative;
   text-align: right;
 }
 
 #phno {
+  position: absolute;
   display: inline-block;
   color: white;
   font-size: 0.8vw;
   margin-top: 0.6%;
-  margin-right: 2%;
+  right: 25%;
   /* vertical-align: middle; */
 }
 
 #line {
+  position: absolute;
   display: inline-block;
   /* vertical-align: middle; */
   color: white;
-  /* margin-top: 0.6%; */
+  /* top: 20%; */
+  margin-top: 0.6%;
   font-size: 0.8vw;
-  margin-right: 0.5%;
+  /* margin-right: 0.5%; */
   font-weight: bolder;
+  right: 22%;
 }
 
 #amb {
+  position: absolute;
   display: inline-block;
   /* vertical-align: middle; */
   color: white;
-  /* margin-top: 0.6%; */
+  margin-top: 0.6%;
   font-size: 0.8vw;
-  margin-right: 5%;
+  right: 8%;
+  /* margin-right: 5%; */
 }
 
 .block2 {
@@ -108,19 +115,39 @@ a:active {
   height: 5%;
   width: 100%;
   background-color: 77A76;
+  position: relative;
 }
 
 #b3list1 li {
+  /* position: absolute; */
   display: inline-block;
   color: white;
   font-size: 0.8vw;
+  /* left: 5%; */
   margin-top: 0.6%;
   padding-right: 7%;
   /* margin-left: 11%; */
 }
 
 #first {
-  margin-left: 11.5%;
+  position: absolute;
+  left: 11.5%;
+  /* margin-left: 11.5%; */
+}
+
+#second {
+  position: absolute;
+  left: 20%;
+}
+
+#third {
+  position: absolute;
+  left: 30%;
+}
+
+#fourth {
+  position: absolute;
+  left: 45%;
 }
 
 .block4 {
@@ -229,18 +256,25 @@ a:active {
     width: 100%;
     background-color: 3379;
     text-align: right;
+    position: relative;
   }
 
   #phno {
-    margin-top: -3.7%;
+    position: absolute;
+    top: 15%;
+    /* margin-top: -3.7%; */
   }
 
   #line {
-    margin-top: -3.7%;
+    position: absolute;
+    top: 15%;
+    /* margin-top: -3.7%; */
   }
 
   #amb {
-    margin-top: -3.7%;
+    position: absolute;
+    top: 15%;
+    /* margin-top: -3.7%; */
   }
 
   .block2 {
