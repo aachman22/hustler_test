@@ -502,7 +502,7 @@ a:active {
 }
 
 #b7img3-2 {
-  left: 20.5%;
+  left: 20.4%;
 }
 
 #b7img4-2 {
@@ -521,6 +521,41 @@ a:active {
   border-radius: 20px;
   border-color: #0264BB;
   left: 38%;
+}
+
+.block8 {
+  position: relative;
+  height: 60%;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+#b8img1 {
+  left: 0%;
+  position: absolute;
+  height: 130%;
+  width: 100%;
+  margin: 0px;
+  z-index: -1;
+  filter: blur(3px) opacity(80%) brightness(70%);
+}
+
+#b8text1 {
+  position: absolute;
+  top: 30%;
+  color: white;
+  font-size: 2.5vw;
+  left: 20%;
+  /* z-index: 1; */
+}
+
+#b8text2 {
+  position: absolute;
+  top: 65%;
+  font-size: 1.8vw;
+  color: white;
+  left: 45%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -663,6 +698,10 @@ a:active {
 
   #b7text4-2, #b7text5-2 {
     top: 53%;
+  }
+
+  .block8 {
+    height: 20%;
   }
 
 }
