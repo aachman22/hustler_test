@@ -232,7 +232,7 @@ a:active {
   position: absolute;
   list-style-type: square;
   color: #0264BB;
-  font-size: 1.1vw;
+  font-size: 1vw;
   text-align: left;
   top: 47%;
   font-weight: 300;
@@ -248,6 +248,119 @@ a:active {
 
 .block5 ul span {
   color: black;
+}
+
+#b5button1, #b5button2 {
+  background: none;
+  position: absolute;
+  text-align: center;
+  font-size: 1.1vw;
+  font-weight: bold;
+  top: 80%;
+  height: 8%;
+  width: 20%;
+  border-width: medium;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #077A76;
+}
+
+#b5button1 {
+  left: 7%;
+}
+
+#b5button2 {
+  left: 29%;
+}
+
+.block6 {
+  position: relative;
+  height: 25%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#blue {
+  position: relative;
+  filter: opacity(90%) brightness(70%) blur(0.5px);
+  top: -120%;
+  height: 300%;
+  width: 100%;
+}
+
+#b6img1, #b6img2, #b6img3, #b6img4 {
+  position: absolute;
+  height: 40%;
+  width: 40%;
+  top: 20%;
+  z-index: 1;
+}
+
+#b6img2 {
+  left: 15%;
+}
+
+#b6img3 {
+  left: 30%;
+}
+
+#b6img4 {
+  left: 45%;
+}
+
+#b6text1-1, #b6text2-1, #b6text3-1, #b6text4-1 {
+  position: absolute;
+  color: white;
+  font-size: 2vw;
+  font-weight: bold;
+  top: 60%;
+
+}
+
+#b6text1-1 {
+  left: 18%;
+}
+
+#b6text2-1 {
+  left: 32.2%;
+}
+
+#b6text3-1 {
+  left: 47.3%;
+}
+
+#b6text4-1 {
+  left: 62.8%;
+}
+
+#b6text1-2, #b6text2-2, #b6text3-2, #b6text3-3, #b6text4-2 {
+  position: absolute;
+  color: white;
+  font-size: 1.4vw;
+  top: 42%;
+  transform: rotate(270deg);
+}
+
+#b6text1-2 {
+  left: 22%;
+}
+
+#b6text2-2 {
+  left: 37%;
+}
+
+#b6text3-2 {
+  left: 52%;
+}
+
+#b6text3-3 {
+  top: 50%;
+  left: 54.5%;
+}
+
+#b6text4-2 {
+  left: 67.5%;
+  top: 53%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -312,13 +425,15 @@ a:active {
   }
 
   #b5list1, #b5list2{
-    /* position: absolute;
-    list-style-type: square;
-    color: #0264BB;
-    font-size: 1.1vw;
-    text-align: left;
-    top: 47%; */
     font-weight: 400;
+  }
+
+  #b5button1, #b5button2 {
+    top: 75%;
+  }
+
+  .block6 {
+    height: 7%;
   }
 
 }
