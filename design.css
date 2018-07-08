@@ -102,7 +102,7 @@ a:active {
 
 #search {
   width: 15%;
-  border-style: double;
+  border-style: solid;
   border-color: 047C74;
   margin-left: 2%;
   border-radius: 50px;
@@ -394,6 +394,13 @@ a:active {
     height: 7%;
   }
 
+  #search {
+    border-radius: 50px;
+    border-width: thin;
+    /* vertical-align: middle; */
+    /* text */
+    /* margin-top: 1%; */
+  }
 
   .block3{
     height: 2%;
@@ -401,8 +408,14 @@ a:active {
     background-color: 77A76;
   }
 
+  #first{
+    /* top: 5%; */
+    left: 0%;
+  }
+
   #b3list1 li {
-    margin-top: -3.7%;
+    /* margin-top: -3.7%; */
+    top: 18%;
   }
 
   #first {
@@ -430,6 +443,7 @@ a:active {
 
   #b5button1, #b5button2 {
     top: 75%;
+    border-width: thin;
   }
 
   .block6 {
